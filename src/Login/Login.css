@@ -1,0 +1,124 @@
+/* this is login form box */
+*{
+  box-sizing: border-box;
+}
+.Login_page{
+  height: 100vh;
+  width: 100%;
+}
+.login-box{
+    border-radius: 10px;
+    position: relative;
+    justify-content: center;
+    left: 32rem;
+    top: 6rem;
+    height: 360px;
+    width: 350px;
+    border: 1px solid grey;
+    box-shadow: 10px 5px 5px grey;
+    background: white;
+  }
+  .page1{
+    font-size: 20px;
+    cursor: pointer;
+    text-align: center;
+  }
+  .page2{
+    font-size: 15px;
+    text-align: center;
+    cursor: pointer;
+  }
+  .page3{
+    font-size: 15px;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  input[type="email"],input[type="password"] {
+    cursor: pointer;
+    height: 25px;
+    width: 250px;
+    outline: none;
+  }
+  
+  .login-container {
+    display: flex;
+    width: 300px;
+    flex-direction: column;
+    gap: 8px;
+    margin: 10px;
+  }
+  
+  .login-container input{
+    border: none;
+    border-bottom: 1px solid black;
+    background: transparent;
+  }
+  
+  button[type="submit"] {
+    cursor: pointer;
+    width: 300px;
+    position: relative;
+    left: 1.5rem;
+    font-size: 15px;
+    background: black;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+  }
+  
+  .Login_page{
+    width: 100%;
+    height: 100vh;
+    background: url('../img/Login/Loginpage.jpg');
+    background-position: center;
+    background-size: cover;
+  }
+ @media (max-width: 768px){
+  .login-box{
+    border-radius: 10px;
+    position: relative;
+    justify-content: center;
+    left: 3rem;
+    top: 6rem;
+    height: 360px;
+    width: 300px;
+    border: 1px solid grey;
+    box-shadow: 10px 5px 5px grey;
+    background: white;
+  }
+
+  .Login_page{
+    width: 100%;
+    height: 100vh;
+    background: url('../img/Login/Loginpage.jpg');
+    background-position: center;
+    background-size: cover;
+  }
+  .login-container {
+    display: flex;
+    width: 250px;
+    flex-direction: column;
+    gap: 8px;
+    margin: 10px;
+  }
+  
+  .login-container input{
+    border: none;
+     width: 250px;
+    border-bottom: 1px solid black;
+    background: transparent;
+  }
+  
+  button[type="submit"] {
+    cursor: pointer;
+    width: 250px;
+    position: relative;
+    left: 1.5rem;
+    font-size: 15px;
+    background: black;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+  }
+ }

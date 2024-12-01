@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+.footer{
+    background-color: #252422 ;
+    overflow: hidden;
+}
+
+.text {
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: fit-content;
+    position: relative;
+    right: 10rem;
+    transition: all0.4s ease;
+}
+ .footer-copyright{
+    color: white;
+    border: 1px solid grey ;
+    text-align: center;
+ }
+ .col{
+    position: relative;
+    left: 20rem;
+ }
+
+.logo1{
+
+    height: 100px;
+    width: 300px;
+}
+
+.minbar{
+    width:100%;
+    display: flex;
+    position: relative;
+    justify-content: space-evenly; 
+}
+
+/* this is who we are link */
+.tag1{
+ 
+    width: 150px;
+    height: 150px;
+    text-align: start;
+    cursor: pointer;
+}
+
+.whoweare{
+    color: white;
+    transition: all 0.4s ease;
+}
+.whoweare:hover{
+    color: #219ebc;
+}
+
+/* this is .supportus link */
+.tag2{
+    width: 150px;
+    height: 150px;
+    text-align: start;
+    cursor: pointer;
+}
+.supportus{
+    color: white;
+    transition: all 0.4s ease;
+}
+.supportus:hover{
+    color: #219ebc;
+}
+
+/* this is ourteam link */
+.tag3{
+    
+    width: 150px;
+    height: 150px;
+    text-align: start;
+    cursor: pointer;
+}
+.ourteam{
+    color: white;
+}
+.ourteam:hover {
+    color: #219ebc ;
+}
+@media (max-width:768px){
+    .logo1{
+        
+        height: 90px;
+        width: 150px;
+    }
+
+    .minbar{
+        display: flex;
+        width: 380px;
+        justify-content: space-evenly ;
+    }
+/* this is who we are link */
+    .tag1{
+      
+        width: 150px;
+        height: 150px;
+        text-align: start;
+    }
+    .whoweare{
+        color: white;
+        transition: all 0.4s ease;
+    }
+    .whoweare:hover{
+        color: #219ebc;
+    }
+/* this is .supportus link */
+    .tag2{
+      
+        width: 150px;
+        height: 150px;
+        text-align: start;
+    }
+    .supportus{
+        color: white;
+        transition: all 0.4s ease;
+    }
+    .supportus:hover{
+        color: #219ebc;
+    }
+/* this is ourteam link */
+    .tag3{
+   
+        width: 150px;
+        height: 150px;
+        text-align: start;
+    }
+    .ourteam{
+        color: white;
+    }
+    .ourteam:hover {
+        color: #219ebc ;
+    }
+}
